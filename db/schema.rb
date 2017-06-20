@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170620220927) do
+ActiveRecord::Schema.define(version: 20170620222731) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20170620220927) do
     t.string "model"
     t.integer "year"
     t.boolean "moonroof"
-    t.string "dealership"
+    t.string "color"
   end
 
 end
